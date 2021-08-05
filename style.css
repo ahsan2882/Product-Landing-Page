@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Karla:ital,wght@1,300&display=swap');
+body{
+	background-color: #e57e3e;
+	color: white;
+}
+header{
+	position: fixed;
+	background-color: #e57e3e;
+  	top: 0;
+  	min-height: 75px;
+  	padding: 0px 50px;
+  	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+}
+p{
+	font-family: 'Karla'
+}
+/*ul{
+	width: 35vw;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+}*/
+#wrapper{
+	padding: 0 100px;
+}
+#header-image{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#nav-list{
+	width: 70vw;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	align-items: center;
+	font-size: 24px;
+	padding: 0 50px 0 0;
+}
+#call-for-quote{
+	background-color: white;
+	border-radius: 50px;
+	border: none;
+	color: #e57e3e;
+	padding: 15px 15px;
+	font-size: 24px;
+	/*font-weight: 1000;*/
+}
+#company-text{
+	margin-top: 200px;
+	width: 400px;
+	padding: 20px 0 30px 0;
+}
+h1{
+	font-family: 'Architects Daughter'
+	text-transform: uppercase;
+	font-size: 45px;
+}
+h2{
+	font-family: 'Architects Daughter'
+	font-size: 30px;
+}
+.service-list{
+	text-transform: uppercase;
+	font-size: 24px;
+	padding: 15px 45px;
+	background-color: white;
+	color: #e57e3e;
+	border-radius: 20px;
+	border: none;
+}
+#list-service{
+	padding: 30px 80px;
+}
+#i-want-to{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+#service{
+	padding: 30px 0;
+}
+#car-img{
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+#company{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70vw;
+}
+.upper{
+	text-transform: uppercase;
+}
+.upper-para{
+	font-size: 26px;
+	width: 800px;
+	/*margin-left: -150px;*/
+}
+#who-are-we{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+#video{
+	width: 50%;
+	height: 100%;
+}
+#video-container{
+	padding: 30px 0 30px 0;
+	height: 50vh;
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+}
+#contact{
+	padding: 30px 50px;
+}
+#duty-calls{
+	width: 100%;
+	border: 7px solid white;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#contact-para{
+	font-size: 24px;
+}
+input,textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+label{
+	display: flex;
+    align-items: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.form-group {
+  margin: 0 0 18px 0;
+  width: 100%;
+  display: block;
+}
+form{
+	width: 50%;
+	margin-bottom: 70px;
+}
+#submit-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#submit{
+	background-color: white;
+	padding: 15px 50px;
+	border-radius: 20px;
+	color: #e57e3e;
+	font-size: 18px;
+	border:none;
+}
+.form-control {
+  width: 100%;
+  display: block;
+  padding: 8px 14px;
+}
+.comment-area {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+button{
+	cursor: pointer;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
